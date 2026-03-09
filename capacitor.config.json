@@ -1,0 +1,23 @@
+{
+  "appId": "com.followupdose.app",
+  "appName": "مُذكِّر الدواء",
+  "webDir": "web",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": true },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#1a5276",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "LocalNotifications": {
+      "iconColor": "#00b894"
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#1a5276"
+    }
+  }
+}
